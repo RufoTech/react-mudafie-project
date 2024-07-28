@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { CiMenuBurger } from "react-icons/ci";
-import { FaRegWindowClose,FaFacebook } from "react-icons/fa";
+import { FaRegWindowClose,FaFacebook,FaTwitter,FaLinkedin, FaGooglePlusSquare,FaYoutube } from "react-icons/fa";
 
 
 
@@ -28,8 +28,8 @@ const Header: React.FC = () => {
         <FaRegWindowClose className='close-icon' onClick={navbariBagla} />
 
         <div className="mobile-links">
-          <ul className='py-5 my-4'>
-            <img src="/assets/images/header/logo-light.webp" alt="" className='sidebar-logo' />
+          <ul className='py-5 '>
+            <img src="/assets/images/header/logo-light.webp" alt="" className='sidebar-logo ' />
             <p className='text-light py-4'>
               By aiming to take the life quality to an upper level with the whole realized Projects, Homepark continues to be the address of luxury.
             </p>
@@ -47,14 +47,59 @@ const Header: React.FC = () => {
            <div className="sidebar-contact">
            <p className='text-light py-3'>Kyiv | G. Stalingrada Avenue, 6 Vilnius | Antakalnio St. 17</p>
                 <h4 className='text-light'>+380(98)298-59-73</h4>
-                <a className='text-light elaqe-gmail'>hello@homepark.com.ua</a>
+               <a href="mailto:alekberovrufa@gmail.com" className='elaqe-gmail text-light'>alekberovrufa@gmail.com</a>
            </div>
-          
+           <div className="sidebar-socialmedia">
+            <div className="row ">
+              
+              <div className="socialmedia-icon col-12 col-md-2">
+              <a href="https://www.facebook.com/login.php/"><FaFacebook  className=''/></a>
+
+
+              </div>
+              <div className="socialmedia-icon col-12 col-md-2">
+             <a href="https://x.com/?lang=en"> <FaTwitter className=''/></a>
+
+
+              </div>
+              <div className="socialmedia-icon col-12 col-md-2">
+             <a href="https://az.linkedin.com/"> <FaLinkedin className=''/></a>
+
+
+              </div>
+              <div className="socialmedia-icon col-12 col-md-2">
+              <a href="https://www.google.co.uk/"><FaGooglePlusSquare className='text-danger'/></a>
+
+
+              </div>
+              <div className="socialmedia-icon col-12 col-md-2">
+              <a href="https://www.youtube.com/"><FaYoutube className='text-danger'/></a>
+
+
+              </div>
+            </div>
+           </div>
+           <div className="copriyght  ">
+           <p className='text-light'>© 2019 Homepark | Real Estate & Luxury Homes</p>
+           </div>
               </div>
             </div>
           </ul>
         </div>
       </div>
+
+      <div className="sidebar-mobil">
+           <div className="sidebar-mobil-links">
+           <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+
+        
+           </div>
+        </div>
 
       <nav className="navbar navbar-expand-lg bg-warning ">
         <div className="container">
@@ -71,12 +116,12 @@ const Header: React.FC = () => {
               <li className="nav-item d-flex align-items-center">
                 <div className='contacts d-flex'>
                   <div className="contact-menu align-items-center justify-content-center px-2">
-                    <a className="contact text-light" aria-current="page" href="#">
+                    <a className="contact text-light" aria-current="page" href="tel:+994997080401">
                       <span>
                         <h5 className='roboto-bold number'>+380(98)298-59-73</h5>
                       </span>
                     </a>
-                    <a href='' className='mb-0 email'>
+                    <a href='mailto:alekberovrufa@gmail.com' className='mb-0 email'>
                       <h6 className='elaqe-gmail'>alakbarlirufo@gmail.com</h6>
                     </a>
                   </div>

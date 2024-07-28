@@ -75,25 +75,14 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #111;
+ background-color: #26282b;
   padding-top: 20px;
   z-index: 999999;
   overflow-x: hidden !important;
   transition: all 1.2s ease;
 }
 .sidebar.aktiv{
-  width: 400px !important;
-}
-.sidebar ul {
-  list-style-type: none;
-  padding: 10;
-}
-
-.sidebar li {
-  padding: 10px;
- 
-  color: white;
-  font-size: 18px;
+  width: 440px !important;
 }
 
 
@@ -110,6 +99,9 @@ border: none;
   color: #ffdda1 !important;
   transition: all ease .6s;
 }
+.elaqe-gmail{
+  text-decoration: none !important;
+}
 .number:hover{
   color: #ffdda1 !important;
   transition: all ease .6s;
@@ -122,8 +114,19 @@ border: none;
   color: #ffdda1 !important;
   transition: all ease .6s;
 }
-@media(min-width:320px){
 
+.socialmedia-icon{
+  font-size: 30px;
+  
+}
+.header-logo{
+  width: 250px;
+}
+
+@media(min-width:320px) and (max-width:374px){
+  .header-logo{
+    width: 220px;
+  }
 }
 @media(min-width:768px) and (max-width:990px){
 
@@ -133,9 +136,7 @@ border: none;
   .sidebar img{
   width: 300px;
   }
-  .sidebar-logo{
-    width: 300px !important;
-  }
+  
   .header-logo{
     width: 210px;
   }
